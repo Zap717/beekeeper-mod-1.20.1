@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=east,honey=false": {
+      "model": "beekeepermod:block/honey_extractor_block",
+      "y": 90
+    },
+    "facing=east,honey=true": {
+      "model": "beekeepermod:block/honey_extractor_block_honey",
+      "y": 90
+    },
+    "facing=north,honey=false": {
+      "model": "beekeepermod:block/honey_extractor_block"
+    },
+    "facing=north,honey=true": {
+      "model": "beekeepermod:block/honey_extractor_block_honey"
+    },
+    "facing=south,honey=false": {
+      "model": "beekeepermod:block/honey_extractor_block",
+      "y": 180
+    },
+    "facing=south,honey=true": {
+      "model": "beekeepermod:block/honey_extractor_block_honey",
+      "y": 180
+    },
+    "facing=west,honey=false": {
+      "model": "beekeepermod:block/honey_extractor_block",
+      "y": 270
+    },
+    "facing=west,honey=true": {
+      "model": "beekeepermod:block/honey_extractor_block_honey",
+      "y": 270
+    }
+  }
+}

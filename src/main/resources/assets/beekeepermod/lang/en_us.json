@@ -1,0 +1,7 @@
+{
+  "block.beekeepermod.honey_extractor_block": "Honey Extractor",
+
+  "tooltip.beekeepermod.honey_extractor_block.tooltip": "Uses centrifugal force to convert honeycomb items into honey items",
+
+  "entity.minecraft.villager.beekeeper": "Beekeeper"
+}

@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "beekeepermod",
+	"version": "${version}",
+	"name": "Beekeeper Mod",
+	"description": "This mod adds a new Beekeeper villager profession and the associated Honey Extractor block as the profession's job site. Code was written by Zap717 following the tutorials of Kaupenjoe and the Fabric team. This mod is intended for use alongside Fabric on the official FOSO Territory Minecraft server, and so there will not be any additional versions or functionality beyond what is needed from its intended server in the future.",
+	"authors": [
+		"Zap717",
+		"SkeletonKing717"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/beekeepermod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.fosoterritory.minecraft.beekeepermod.BeekeeperMod"
+		],
+		"client": [
+			"com.fosoterritory.minecraft.beekeepermod.BeekeeperModClient"
+		],
+		"fabric-datagen": [
+			"com.fosoterritory.minecraft.beekeepermod.BeekeeperModDataGenerator"
+		]
+	},
+	"mixins": [
+		"beekeepermod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

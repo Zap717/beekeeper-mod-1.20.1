@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "beekeepermod:block/honey_extractor_front",
+    "side": "beekeepermod:block/honey_extractor_side",
+    "top": "beekeepermod:block/honey_extractor_top",
+    "bottom": "beekeepermod:block/honey_extractor_bottom"
+  }
+}

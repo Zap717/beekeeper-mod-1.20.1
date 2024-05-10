@@ -1,0 +1,7 @@
+{
+  "block.beekeepermod.honey_extractor_block": "Pirate o' Bee Nectar",
+
+  "tooltip.beekeepermod.honey_extractor_block.tooltip": "Keelhauls the treasure o' the bee till it gives up it's golden nectar",
+
+  "entity.minecraft.villager.beekeeper": "Beemonger"
+}

@@ -1,0 +1,7 @@
+{
+  "block.beekeepermod.honey_extractor_block": "Extracteur de Miel",
+
+  "tooltip.beekeepermod.honey_extractor_block.tooltip": "Utilise la force centrifuge pour convertir les objets en nid d'abeille en objets en miel",
+
+  "entity.minecraft.villager.beekeeper": "Apiculteur"
+}
