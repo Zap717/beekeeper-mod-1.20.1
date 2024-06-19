@@ -4,7 +4,9 @@ import com.fosoterritory.minecraft.beekeepermod.block.ModBlocks;
 import com.fosoterritory.minecraft.beekeepermod.block.entity.ModBlockEntities;
 import com.fosoterritory.minecraft.beekeepermod.item.ModItems;
 import com.fosoterritory.minecraft.beekeepermod.screen.ModScreenHandlers;
+import com.fosoterritory.minecraft.beekeepermod.sound.ModSounds;
 import com.fosoterritory.minecraft.beekeepermod.util.ModCustomTrades;
+import com.fosoterritory.minecraft.beekeepermod.util.ModLootTableModifiers;
 import com.fosoterritory.minecraft.beekeepermod.villager.ModVillagers;
 import net.fabricmc.api.ModInitializer;
 
@@ -29,5 +31,7 @@ public class BeekeeperMod implements ModInitializer {
 		ModScreenHandlers.registerScreenHandlers();
 		ModVillagers.registerVillagers();
 		ModCustomTrades.registerCustomTrades();
+		ModSounds.registerSounds();
+		ModLootTableModifiers.modifyLootTables();
 	}
 }

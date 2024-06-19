@@ -3,5 +3,8 @@
 
   "tooltip.beekeepermod.honey_extractor_block.tooltip": "",
 
-  "entity.minecraft.villager.beekeeper": "Bkeypur"
+  "entity.minecraft.villager.beekeeper": "Bkeypur",
+
+  "item.beekeepermod.mule_music_disc": "Music Disc",
+  "item.beekeepermod.mule_music_disc.desc": "Roy Glover - M.U.L.E."
 }

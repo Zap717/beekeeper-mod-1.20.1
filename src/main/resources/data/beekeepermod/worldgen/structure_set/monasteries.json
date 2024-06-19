@@ -1,0 +1,33 @@
+{
+  "structures": [
+    {
+      "structure": "beekeepermod:desert_monastery_1",
+      "weight": 1
+    },
+    {
+      "structure": "beekeepermod:plains_monastery_1",
+      "weight": 1
+    },
+    {
+      "structure": "beekeepermod:savanna_monastery_1",
+      "weight": 1
+    },
+    {
+      "structure": "beekeepermod:snowy_monastery_1",
+      "weight": 1
+    },
+    {
+      "structure": "beekeepermod:taiga_monastery_1",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 66278379,
+
+    "spacing": 34,
+
+    "separation": 8,
+
+    "type": "minecraft:random_spread"
+  }
+}

@@ -3,5 +3,8 @@
 
   "tooltip.beekeepermod.honey_extractor_block.tooltip": "Utilise la force centrifuge pour convertir les objets en nid d'abeille en objets en miel",
 
-  "entity.minecraft.villager.beekeeper": "Apiculteur"
+  "entity.minecraft.villager.beekeeper": "Apiculteur",
+
+  "item.beekeepermod.mule_music_disc": "Music Disc",
+  "item.beekeepermod.mule_music_disc.desc": "Roy Glover - M.U.L.E."
 }

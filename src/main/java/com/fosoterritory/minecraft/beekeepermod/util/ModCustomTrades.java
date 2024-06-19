@@ -161,27 +161,32 @@ public class ModCustomTrades {
         TradeOfferHelper.registerVillagerOffers(ModVillagers.BEEKEEPER, 3,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.BEE_NEST, 1),
                             new ItemStack(Items.EMERALD, 1),
-                            new ItemStack(Items.HONEYCOMB_BLOCK, 1),
-                            12, 10, 0.2f));
+                            16, 20, 0.05f));
                     factories.add((entity, random) -> new TradeOffer(
-                            new ItemStack(Items.EMERALD, 3),
-                            new ItemStack(Items.HONEY_BLOCK, 1),
-                            12, 10, 0.2f));
+                            new ItemStack(Items.SHEARS, 1),
+                            new ItemStack(Items.SHEARS, 1),
+                            new ItemStack(Items.EMERALD, 1),
+                            12, 20, 0.05f));
                     factories.add((entity, random) -> new TradeOffer(
-                            new ItemStack(Items.GLASS_BOTTLE, 12),
+                            new ItemStack(Items.SWEET_BERRIES, 5),
+                            new ItemStack(Items.WHEAT, 15),
                             new ItemStack(Items.EMERALD, 1),
                             12, 20, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.BEEKEEPER, 4,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
-                            new ItemStack(Items.BEE_NEST, 1),
                             new ItemStack(Items.EMERALD, 1),
-                            16, 30, 0.05f));
+                            new ItemStack(Items.HONEYCOMB_BLOCK, 1),
+                            12, 15, 0.2f));
                     factories.add((entity, random) -> new TradeOffer(
-                            new ItemStack(Items.EGG, 5),
-                            new ItemStack(Items.WHEAT, 15),
+                            new ItemStack(Items.EMERALD, 3),
+                            new ItemStack(Items.HONEY_BLOCK, 1),
+                            12, 15, 0.2f));
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.GLASS_BOTTLE, 12),
                             new ItemStack(Items.EMERALD, 1),
                             12, 30, 0.05f));
                 });
@@ -189,7 +194,7 @@ public class ModCustomTrades {
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(Items.EMERALD, 1),
-                            new ItemStack(Items.CAKE, 1),
+                            new ItemStack(Items.CANDLE, 3),
                             12, 30, 0.2f));
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(Items.EMERALD, 12),

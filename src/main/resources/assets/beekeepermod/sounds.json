@@ -1,0 +1,10 @@
+{
+  "mule": {
+    "sounds": [
+      {
+        "name": "beekeepermod:mule",
+        "stream": true
+      }
+    ]
+  }
+}

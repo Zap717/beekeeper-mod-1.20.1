@@ -3,5 +3,8 @@
 
   "tooltip.beekeepermod.honey_extractor_block.tooltip": "Uses centrifugal thring to wend honeycomb items into honey items",
 
-  "entity.minecraft.villager.beekeeper": "Beekeeper"
+  "entity.minecraft.villager.beekeeper": "Beekeeper",
+
+  "item.beekeepermod.mule_music_disc": "Music Disc",
+  "item.beekeepermod.mule_music_disc.desc": "Roy Glover - M.U.L.E."
 }
