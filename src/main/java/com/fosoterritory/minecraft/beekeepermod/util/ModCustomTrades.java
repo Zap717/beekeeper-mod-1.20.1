@@ -2,12 +2,9 @@ package com.fosoterritory.minecraft.beekeepermod.util;
 
 import com.fosoterritory.minecraft.beekeepermod.villager.ModVillagers;
 import net.fabricmc.fabric.api.object.builder.v1.trade.TradeOfferHelper;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemGroups;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.village.TradeOffer;
-import net.minecraft.village.VillagerProfession;
 
 public class ModCustomTrades {
     public static void registerCustomTrades() {
